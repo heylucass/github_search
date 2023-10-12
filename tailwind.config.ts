@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'olivine': '#b8c480',
+        'mindaro': '#d4e79e',
+        'quinacridone_magenta': '#922d50',
+        'tyrian_purple': 'rgb(80, 21, 55)',
+        'dark_purple': '#3c1b43',
+        'pantone':'#CA537D'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

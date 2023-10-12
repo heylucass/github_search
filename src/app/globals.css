@@ -6,22 +6,30 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --olivine: #b8c480;
+  --mindaro: #d4e79e;
+  --quinacridone_magenta: #922d50;
+  --tyrian_purple: rgb(80, 21, 55);
+  --dark_purple: #3c1b43;
+}
+:alternative {
+   --prussian_blue: #002642;
+   --claret: #840032;
+   --gamboge: #e59500;
+   --timberwolf: #e5dada;
+   --rich_black: #02040f;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(var(--dark_purple));
+  height: 100vh;
 }
